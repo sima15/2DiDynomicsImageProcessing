@@ -16,6 +16,8 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
+import utils.LogFile;
+
 public class ResultImageConverter {
 
 	//private static final String RESULT_PATH = "C:\\Delin\\Updated Workspace\\iDynoMiCS\\resultss";
@@ -30,8 +32,12 @@ public class ResultImageConverter {
 		String name = names[names.length - 1];
 		System.out.println(name);
 */
+		
+		LogFile.write("Replacing the last POV file to PNG. ");
 		String zipPath = result_path + "\\povray.zip";
+		LogFile.write("Zip file path: "+ zipPath);
 		String extractedPath = result_path + "\\povray";
+		LogFile.write("Result path: "+ extractedPath);
 		System.out.println(zipPath);
 		/*
 		 *
@@ -39,6 +45,7 @@ public class ResultImageConverter {
 		 * light and reflection parameters deleted
 		 */
 		POVRayCleanHeaderSetter.copyHeaderTo(extractedPath);
+		LogFile.write("New header file copied to "+ extractedPath);
 
 		/* Get the newest file for a specific extension */
 		ZipFile zipFile = new ZipFile(zipPath);
@@ -65,6 +72,7 @@ public class ResultImageConverter {
 		    	
 			});
 		    String lastFileName = povZipEntryList.get(0).getName();
+		    LogFile.write("Last file name: "+ lastFileName+ " which will be used for image processing");
 		    System.out.println(lastFileName);
 		    
 		    

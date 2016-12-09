@@ -49,8 +49,8 @@ public class XMLParserFromiDynomics implements Serializable {
 		try {
 			document = (new SAXBuilder(testDTD)).build(new File(fileName));
 		} catch (Exception e) {
-			LogFile.writeLog("Initialisation of the XML parser failed");
-			LogFile.writeLog("File does not exist: " + fileName);
+			LogFile.write("Initialisation of the XML parser failed");
+			LogFile.write("File does not exist: " + fileName);
 			System.exit(-1);
 		}
 	}
@@ -574,7 +574,7 @@ public class XMLParserFromiDynomics implements Serializable {
 		try {
 			return Class.forName(prefix).newInstance();
 		} catch (Exception e) {
-			LogFile.writeLog("Unable to create class");
+			LogFile.write("Unable to create class");
 			return null;
 		}
 	}

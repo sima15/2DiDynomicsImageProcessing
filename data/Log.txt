@@ -1,0 +1,54 @@
+Name of folder in Controller: (20161208_0317)
+Inside main method.
+Verifying conditions ...
+File name: (20161208_0317)
+Starting image processing. 
+Replacing the last POV file to PNG. 
+Zip file path: E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray.zip
+Result path: E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray
+New header file copied to E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray
+Last file name: it(440).pov which will be used for image processing
+Image converted to POV, cropped, binarized and local thickness produced!
+Attempting to skeletonize the image
+Graph created
+Verifying conditions ...
+File name: (20161208_0317)
+Starting image processing. 
+Replacing the last POV file to PNG. 
+Zip file path: E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray.zip
+Result path: E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray
+New header file copied to E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray
+Last file name: it(440).pov which will be used for image processing
+Image converted to POV, cropped, binarized and local thickness produced!
+Attempting to skeletonize the image
+Name of folder in Controller: (20161208_0317)
+Inside main method.
+Verifying conditions ...
+File name: (20161208_0317)
+Starting image processing. 
+Replacing the last POV file to PNG. 
+Zip file path: E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray.zip
+Result path: E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray
+New header file copied to E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray
+Last file name: it(440).pov which will be used for image processing
+Image converted to POV, cropped, binarized and local thickness produced!
+Attempting to skeletonize the image
+
+Name of folder in Controller: (20161208_0317)
+File name: (20161208_0317)
+E:\Courses\cs6600\Project\program\resultss\experiments\(20161208_0317)\povray.zip
+it(440).pov
+erode
+Dilate
+erode
+erode
+1024
+768
+Detailed graph created
+Nodes + cycles size: 147
+Edges size: 147
+[6, 10, 23, 40, 58, 72, 75, 84, 88, 90, 91, 94, 95, 104, 106, 109, 121, 124, 126, 128, 127, 130, 132, 136, 139, 143, 144, 142, 141, 140, 138, 137, 134, 133, 131, 129, 123, 122, 117, 115, 114, 113, 112, 107, 105, 102, 101, 99, 97, 96, 93, 92, 86, 83, 68, 53, 48, 43, 37, 33, 30, 28, 17, 1, 0]
+pathFromStartToEnd : [0, 6, 10, 23, 40, 58, 72, 75, 84, 88, 90, 91, 94, 95, 104, 106, 109, 121, 124, 126, 128, 127, 130, 132, 136, 139, 143, 144, 142, 141, 140, 138, 137, 134, 133, 131, 129, 123, 122, 117, 115, 114, 113, 112, 107, 105, 102, 101, 99, 97, 96, 93, 92, 86, 83, 68, 53, 48, 43, 37, 33, 30, 28, 17, 1]
+The product is:
+NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN NaN 
+Showing maskimage

@@ -45,7 +45,7 @@ public class Solve_Linear_Equation
         System.out.println("The product is:");
         for(int i=0; i<numberOfUnknowns; i++)
         {
-            System.out.print(result[i][0] + " ");
+            System.out.print(String.valueOf(result[i][0]) + " ");
         }
         System.out.println();
         

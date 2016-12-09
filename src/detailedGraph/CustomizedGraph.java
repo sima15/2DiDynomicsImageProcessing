@@ -45,8 +45,8 @@ public class CustomizedGraph {
 		createGraph(skeletonEdges);
 
 		if (!connectedNodeSet.contains(endNode)) {
-			System.out.println("Error");
-			throw new Exception("Error");
+			System.out.println("Error! Connected node set does not contain end node!");
+			throw new Exception("Error! ");
 		}
 
 		FindCycles findCycles = new FindCycles(this);
@@ -69,7 +69,12 @@ public class CustomizedGraph {
 					e.setFlowRate(0);
 				}
 			}
-		} catch (Exception e) {e.printStackTrace();}
+		} catch (Exception e) {
+			System.out.println("Equation solver not resolved! ");
+			e.printStackTrace();
+			graphCreatedFlag = false;
+			return null;
+			}
 		// DisplayGraph.draw(edges, localThicknessImage);
 		graphCreatedFlag = true;
 		return this;
